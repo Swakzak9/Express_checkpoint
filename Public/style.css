@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("pexels-timon-reinhard-1577192467-27308313.jpg");
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    background-color: #a51c1c;
+    color: #fff;
+    padding: 10px;
+    justify-content:flex-end;
+    display: flex;
+    
+}
+.box{
+    height: 300px;
+    width: 500px;
+    border: solid 1px white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff1a;
+    box-shadow:0px 5px 5px;
+}
+.content{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    color: #fff;
+}
+
+nav a {
+    padding-left: 100px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    margin-left: 50px;
+}
+
+
+nav a:hover {
+    background-color: #575757;
+    
+}
+
+main {
+    padding: 20px;
+}
